@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e2128;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 16px;
+  align-items: center;
+  position: relative;
+}
+
+.card1 {
+  background-color: #393e47;
+  width: 250px;
+  height: 50px;
+  border-radius: 6px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card2 {
+  background-color: #393e47;
+  width: 230px;
+  height: 90px;
+  border-radius: 0px 6px 6px 6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card2::after {
+  content: "";
+  color: #595c65;
+  position: absolute;
+  left: -7.2px;
+  border: #393e47 solid 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #595c65;
+}
+
+.cabecalho{
+    position: absolute;
+    top: -8px;
+}
+
+.cabecalho::before {
+  content: "Matrix: prepare-release-on-se...";
+  color: #b4bbc3;
+  font-size: 0.6em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  top: -10px;
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  background-color: #393e47;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.cabecalho::after{
+    content: "";
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    bottom: -8px;
+    right: -171px;
+    background-color: transparent; 
+    border-radius: 50%;
+    box-shadow: -5px 6px 0 #393e47;
+}
+
+.linha {
+  background-color: #393e47;
+  width: 50px;
+  height: 3px;
+  border-radius: 6px;
+}
+
+.card1::after {
+  content: "";
+  color: #595c65;
+  position: absolute;
+  right: -7.2px;
+  border: #393e47 solid 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #595c65;
+}
+
+.text {
+  position: relative;
+  font-size: 0.7em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #b4bbc3;
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.text-deployment {
+  position: relative;
+  font-size: 0.7em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #b4bbc3;
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  font-size: 0.6em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #656a73;
+}
+
+.show-jobs {
+  font-size: 0.6em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #656a73;
+  margin-top: 9px;
+  left: -5px;
+  display: flex;
+  align-items: center;
+}
+
+.text::before,
+.text-deployment::after {
+  content: "✓";
+  color: #1e2128;
+  background-color: #6baa64;
+  height: 13px;
+  width: 13px;
+  left: -20px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
