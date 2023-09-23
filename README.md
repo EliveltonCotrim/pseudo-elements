@@ -1,3 +1,3 @@
 # Pseudo-elements
 
-![image](https://github.com/EliveltonCotrim/pseudo-elements/assets/54777067/dd31290c-4574-49df-a798-0ce90bccdfe2)
+![assets/print.png](https://github.com/EliveltonCotrim/pseudo-elements/blob/b8f9ad1cb575d9a1c8d4787f94e66208c88aabcb/assets/print.png)
