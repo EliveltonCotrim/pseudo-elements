@@ -1,3 +1,8 @@
-# Pseudo-elements
+# Desafio CSS: Pseudo-elements
+  O desafio consiste em refazer a imagem  usando pseudo-elements
+  
+# Imagem do desafio
+![assets/print.png](https://github.com/EliveltonCotrim/pseudo-elements/blob/972cdedcd60aeb8b6fe741d541a246c7e83b3400/assets/img-desafio.png)
 
-![assets/print.png](https://github.com/EliveltonCotrim/pseudo-elements/blob/b8f9ad1cb575d9a1c8d4787f94e66208c88aabcb/assets/print.png)
+# Resultado
+![assets/print.png](https://github.com/EliveltonCotrim/pseudo-elements/blob/972cdedcd60aeb8b6fe741d541a246c7e83b3400/assets/img-resultado.png)
